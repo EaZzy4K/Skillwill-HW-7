@@ -1,9 +1,9 @@
-// setTimeout callback example
+// setTimeout callback example:
 setTimeout(() => {
   console.log('Delay...')
 }, 2000);
 
-# setTimeout promise version example
+// setTimeout promise version example
 function mySetTimeout(delay){
   return new Promise((resolve) => {
     setTimeout(resolve, delay);
@@ -58,7 +58,7 @@ makeToys()
 .then((status) => sellToys(status))
 .catch((err) => console.log(err))
 
-// Async - Await
+Async - Await
 
 async function makeToysAsync(){
   return new Promise((resolve, reject) => {

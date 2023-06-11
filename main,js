@@ -1,4 +1,5 @@
-SetTimeout(() => {
+// setTimeout callback example
+setTimeout(() => {
   console.log('Delay...')
 }, 2000);
 
